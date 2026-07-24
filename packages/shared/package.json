@@ -28,8 +28,8 @@
     }
   },
   "scripts": {
-    "dev": "tsc -w",
-    "build": "tsc"
+    "dev": "node init && tsc -w",
+    "build": "node init && tsc"
   },
   "devDependencies": {
     "typescript": "^5.2.2"

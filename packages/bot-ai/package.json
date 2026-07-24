@@ -12,8 +12,8 @@
     }
   },
   "scripts": {
-    "dev": "tsc -w",
-    "build": "tsc",
+    "dev": "node init && tsc -w",
+    "build": "node init && tsc",
     "test": "vitest run"
   },
   "dependencies": {
